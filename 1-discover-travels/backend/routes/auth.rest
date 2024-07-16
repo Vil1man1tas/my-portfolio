@@ -1,0 +1,36 @@
+POST http://localhost:8700/auth/register
+Content-Type: application/json
+
+{
+  "nickname": "Povilas",
+  "username": "Povilas Vaitkus",
+  "password": "123",
+  "email": "povilas.vaitkus@example.com"
+}
+
+####
+POST http://localhost:8700/auth/login
+Content-Type: application/json
+
+{
+  "email": "povilas.vaitkus@example.com",
+  "password": "123"
+}
+
+
+####
+POST http://localhost:8700/auth/login
+Content-Type: application/json
+
+{
+  "email": "aa@aa",
+  "password": "aa"
+}
+
+### su tokeno autorizacija , kai visa info yra gera
+GET http://localhost:8700/auth/nickname
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2N2M1M2JhOTdmMWZiNWExNDk1YjIzYyIsImlhdCI6MTcxOTQyOTgyNCwiZXhwIjoxNzIyMDIxODI0fQ.ZchuZDjsHynoKr5oeEgfSd-hDZODd2JayNO9ZnkRMpg
+
+### su tokeno autorizacija , kai visa info yra gera
+GET http://localhost:8700/auth/lastconnect
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2N2M1M2JhOTdmMWZiNWExNDk1YjIzYyIsImlhdCI6MTcxOTQyOTgyNCwiZXhwIjoxNzIyMDIxODI0fQ.ZchuZDjsHynoKr5oeEgfSd-hDZODd2JayNO9ZnkRMpg

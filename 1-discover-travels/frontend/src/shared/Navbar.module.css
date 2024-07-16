@@ -1,0 +1,41 @@
+.nav {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),  url('../images/background.jpg');
+    background-size: cover ;
+    background-attachment: fixed;
+    padding: 20px 60px;
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.2s all;
+}
+
+.nav a:hover {
+    color: rgba(1, 57, 113, 0.768);
+}
+
+.brand a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+

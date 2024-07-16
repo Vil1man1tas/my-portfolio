@@ -1,0 +1,51 @@
+
+.body {
+    background: rgba(239, 239, 239, 1);
+
+}
+
+h1, h2, h3, h4, h5, h6, label, option {
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+}
+h1, label {
+   font-size: 16px;
+   line-height: 18.75px;
+}
+h2, option {
+   font-size: 12px;
+   line-height: 14.06px;
+}
+
+p, a {
+   font-family: "Open Sans", sans-serif;
+   font-weight: 400;
+   font-size: 10px;
+   line-height: 13.62px;
+}
+
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+.container-home {
+   width: calc(100% - 400px);
+   max-width: 1000px;
+   min-width: 600px;
+   margin: 32px auto;
+   padding: 30px;
+   background-color: white;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-allpage {
+   height: calc(100vh - 181px);
+}
+
+.container-allpage p {
+   font-size: 16px;
+   text-indent: 30px;
+   letter-spacing: 0.5px;
+   line-height: 1.4;
+}

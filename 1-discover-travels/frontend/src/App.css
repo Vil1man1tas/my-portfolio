@@ -1,0 +1,71 @@
+h1, h2, h3, h4, h5, h6 {
+ font-family: "Roboto", sans-serif;
+ font-weight: 700;
+}
+h1 {
+ font-size: 24px;
+ line-height: 18.75px;
+}
+h2 {
+ font-size: 16px;
+ line-height: 18.75px;
+}
+
+p, a, button {
+ font-family: "Open Sans", sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 13.62px;
+}
+
+.container {
+position: relative;
+ margin: 0 auto;
+ background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)),  url('../images/background.jpg');
+ background-size: cover ;
+ background-attachment: fixed;
+ min-height: calc(100vh - 55px);
+}
+
+.container-about {
+ width: calc(100% - 400px);
+ margin: 0 auto;
+  padding-top: 25vh;
+}
+
+.container-about p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: rgb(37, 37, 37);
+}
+
+.container-all {
+  padding: 20px 60px;
+}
+
+.button-all {
+  color: rgb(61, 61, 85);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.41);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.255);
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.button-all:hover {
+  background-color: rgba(118, 118, 118, 0.401);
+  color: rgb(200, 200, 200);
+}
+
+input {
+  padding: 5px;
+}
+
+

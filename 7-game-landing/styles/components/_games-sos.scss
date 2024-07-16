@@ -1,0 +1,327 @@
+
+
+.games {
+    .container-fluid{
+        max-width: 1440px;
+
+
+        .games-sos {
+            width: 100%;
+            height: 1279px;
+            background: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, 
+                    rgba(0, 0, 0, 0) 60.63%, #080A0B 99.74%), linear-gradient(0deg, 
+                    rgba(9, 10, 12, 0.9), rgba(9, 10, 12, 0.9)),
+                    url('../images/sos-background.jpg')
+            ;
+            background-size: contain;
+            position: relative;
+            .sos-title {
+                // 410.93
+                width: 420.93px;
+                height: calc(153.56px + 11.61px + 27.73px);
+                position: absolute;
+                top: 398.77px;
+                // left: 300px;
+                left: calc(50% - 1920px/2 + 300px);
+                p {
+                    padding-left: 2px;
+                    padding-bottom: 11.61px;
+                }
+            }
+            .div-dash {
+                width: 711.5px;
+                height: 2.99px;
+                border-radius: 4px;
+                background: rgba(255, 255, 255, 1);
+                position: absolute;
+                top: 638px;
+                // left: 302px;
+                left: calc(50% - 1920px/2 + 302px);
+                z-index: 3000;
+            }
+            .sos-description {
+                width: 364.85px;
+                height: 176.62px;
+                position: absolute;
+                top: 687px;
+                // left: 471px;
+                left: calc(50% - 1920px/2 + 471px);
+                .underline {
+                    width: 122.06px;
+                    height: 6.27px;
+                    background: rgba(255, 181, 72, 1);
+                    position: absolute;
+                    bottom: 0px;
+                    left: 164px;
+                }
+            }
+            .div-images {
+                width: 698.33px;
+                height: 707.27px;
+                position: absolute;
+                top: 287.66px;
+                // left: 910px;
+                left: calc(50% - 1920px/2 + 910px);
+                z-index: 2900;
+                img#sos-image1 {
+                    width: 581.82px;
+                    height: 707.27px;
+                    position: absolute;
+                    object-fit: cover;
+                    border-radius: 7.33px;
+                    top: 0;
+                    left: 0;
+                    z-index: 4000;
+                }
+                img#sos-image2 {
+                    width: 581.82px;
+                    height: 707.27px;
+                    position: absolute;
+                    object-fit: cover;
+                    border-radius: 7.33px;                
+                    top: 0;
+                    left: 0;
+                    z-index: 3900;
+                }
+                img#sos-image3 {
+                    width: 507.18px;
+                    height: 652.49px;
+                    position: absolute;
+                    object-fit: cover;
+                    border-radius: 7.33px;
+                    opacity: 90%;
+                    top: 23.63px;
+                    left: 105.08px;
+                    z-index: 3800;
+                }
+                img#sos-image4 {
+                    width: 507.18px;
+                    height: 592.69px;
+                    position: absolute;
+                    object-fit: cover;
+                    border-radius: 7.33px;                
+                    opacity: 80%;
+                    top: 54.78px;
+                    left: 130.42px;
+                    z-index: 3700;
+                }
+                img#sos-strange {
+                    width: 30px;
+                    height: 24px;
+                    position: absolute;
+                    // top: 0.34px;
+                    top: 3px;
+                    left: 582px;
+                    z-index: 4000;
+                }
+                img#sos-switch {
+                    width: calc(39.43px + 3.89px);
+                    height: calc(15.9px + 3.89px);
+                    position: absolute;
+                    top: 347.58px;
+                    right: 0px;
+                    z-index: 4000;
+                }
+                .sos-bubbles {
+                    width: 325.28px;
+                    height: 16.67px;
+                    position: absolute;
+                    bottom: 33px;
+                    left: 136.94px;
+                    z-index: 4100;
+                    display: flex;
+                    justify-content: space-between;
+                    .sos-ph-circle {
+                        width: 16.2px;
+                        height: 16.2px;
+                        border-radius: 50%;
+                        border: 1.51px solid white;
+                    }
+                    :first-child {
+                        background: white;
+                    }
+                    .circle-mark-progress {
+                        width: 37.22px;
+                        border: 2.27px solid rgba(255, 255, 255, 1);
+                        border-radius: 2.27px;
+                        position: absolute;
+                        top: calc(50% - 2.27px);
+                        left: 8.95px;
+                        z-index: 5000;
+                    }
+                }
+            }
+    
+        }
+
+        .games-features {
+            width: 100%;
+            height: 1179px;
+            position: relative;
+            .features-background {
+                width: 100%;
+                height: 100%;
+                background: radial-gradient(34.64% 65.66% at 73.36% 41.9%, rgba(255, 255, 255, 0) 0%, 
+                rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%),
+                url('../images/features-background.jpg');
+                background-size: cover;
+                transform: scaleX(-1);
+                background-position: 62% 0;
+                position: absolute;
+                z-index: 1000;
+            }
+            .info {
+                width: 413.27px;
+                height: 439.67px;
+                top: 371.12px;
+                // left: 1169px;
+                left: calc(50% - 1920px/2 + 1169px);
+                position: absolute;
+                z-index: 1100;
+                h1 {
+                    margin-top: 9.56px;
+                    margin-bottom: 66.75px;
+                }
+                .left-slider {
+                    width: 14px;
+                    height: 239.69px;
+                    position: absolute;
+                    left: 0;
+                    bottom: 9.21px;
+                    .bubble {
+                        width: 14px;
+                        height: 14px;
+                        border: 1.31px solid rgba(255, 255, 255, 1);
+                        border-radius: 50%;
+                    }
+                    .bubble1 {
+                        background: white;
+                    }
+                    .bubble2 {
+                        margin-top: 114.77px;
+                        margin-bottom: 53.92px;
+                    }
+                    .progress {
+                        width: 0px;
+                        height: 122.03px;
+                        border: 1.96px solid white;
+                        position: absolute;
+                        top: 7px;
+                        left: 5px;
+                    }
+                }
+                .info-into {
+                    padding-left: 46.82px;
+                    h2 {
+                        color: rgba(255, 181, 72, 1);
+                    }                    
+                    p {
+                        margin-top: 8.63px;
+                        margin-bottom: 24.21px;
+                    }
+                    :last-child {
+                        margin-top: 36.71px;
+                    }
+                }
+            }
+
+        }
+        .games-system {
+            width: 100%;
+            height: 1265.22px;
+            background: radial-gradient(33.94% 46.58% at 70.14% 64.4%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%), 
+            url('../images/system-background.jpg');
+            background-size: cover;
+            // background-position: 62% 0;
+            position: relative;
+            h3.title {
+                padding-top: 233.21px;
+                text-align: center;
+            }
+            h1 {
+                margin-top: 8.48px;
+                text-align: center;
+            }
+
+            .specification {
+                width: 573.2px;
+                height: 400.69px;
+                position: absolute;
+                top: 512px;
+                left: calc(50% - 1920px/2 + 300px);
+                table {
+                    width: 100%;
+                    height: 100%;
+                    border-collapse: collapse;
+                    table-layout: fixed;
+                    td {
+                        border: 1px solid rgba(151, 151, 151, 1);
+                        text-align: left;
+                        vertical-align : top;
+                        padding: 19.41px 19.16px;
+                        h3 {
+                            padding-bottom: 7px;
+                            color: rgba(255, 181, 72, 1);
+    
+                        }
+                    }
+                    tr:last-child td:last-child {
+                        border-right: 1px solid transparent;
+                        border-bottom: 1px solid transparent;
+                    }
+                }
+                .table-border-design {
+                    position: absolute;
+                    bottom: 0px;
+                    height: 1px;
+                    background: rgba(151, 151, 151, 1);
+                }
+                .table-border-design.table-border-design1 {
+                    width: 58px;
+                    left: 0px;
+                }
+                .table-border-design.table-border-design2 {
+                    width: 6px;
+                    left: 58px;
+                    bottom: 4px;                 
+                    transform: skew(45deg, -54deg);
+                }
+                .table-border-design.table-border-design3 {
+                    width: 35px;
+                    left: 64px;
+                    bottom: 8px;
+                }
+                .table-border-design.table-border-design4 {
+                    width: 6px;
+                    left: 98px;
+                    bottom: 4px;
+                    transform: skew(69deg, 54deg);  
+                }
+                .table-border-design.table-border-design5 {
+                    width: 458px;
+                    right: 12px;
+                }
+                .table-border-design.table-border-design6 {
+                    width: 12px;
+                    right: 0px;
+                    bottom: 6px;
+                    transform: skew(45deg, -45deg);
+                }
+                .table-border-design.table-border-design7 {
+                    bottom: 12px;
+                    right: 0px;
+                    width: 1px;
+                    height: 130px;
+                }
+                
+            }
+        }
+
+
+
+
+
+        
+    }
+}
+    

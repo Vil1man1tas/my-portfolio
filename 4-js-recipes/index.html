@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receptai</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-dropdown">
+                <label for="header-dish-selector">Pasirinkite receptą:</label>
+                <select class="-js-header-dishes" name="header-dishes" id="header-dish-selector">
+                    <option value="1">Vištiena su salotom</option>
+                    <option value="2">Tortas su mėlynėm</option>
+                    <option value="3">Makaronai su mėsa</option>
+                </select>
+            </div>
+            
+            <div class="cookbook">
+                <div class="dishes-marker">
+                    <img src="images/Group5.svg" alt="">
+                </div>
+                <div class="produce produce1 active -js-box1">
+                    <div class="produce-image -js-box1">
+                        <img class="-js-box1" src="images/image1.jpg" alt="">
+                    </div>
+                    <h2 class="-js-box1">Vištiena su salotom</h2>
+                    <p class="-js-box1">Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt risus purus faucibus elit ut. Pellentesque montes.</p>
+                </div>
+                <div class="produce produce2 -js-box2">
+                    <div class="produce-image image2 -js-box2">
+                        <img class="-js-box2" src="images/image2.jpg" alt="">
+                    </div>
+                    <h2 class="-js-box2">Tortas su mėlynėm</h2>
+                    <p class="-js-box2">Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt risus purus faucibus elit ut. Pellentesque montes.</p>
+                </div>
+                <div class="produce produce3 -js-box3">
+                    <div class="produce-image -js-box3">
+                        <img class="-js-box3" src="images/image3.jpg" alt="">
+                    </div>
+                    <h2 class="-js-box3">Makaronai su mėsa</h2>
+                    <p class="-js-box3">Amet et at aliquam duis ut morbi turpis. Quis cursus tincidunt risus purus faucibus elit ut. Pellentesque montes.</p>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="order">
+        <div class="container">
+            <h1>Kiek porcijų gaminsite?</h1>
+            <div class="slider-counter">
+                <p>1</p>
+            </div>
+            <input type="range" min="0" max="10" value="1" class="my-slider" id="order-slider">
+            <h2>Porcijų kiekis: 1</h2>
+        </div>
+    </div>
+
+    <div class="ingredients">
+        <div class="container">
+            <h1>Jums reikės šių ingredientų, tokiais kiekiais:</h1>
+            <div class="ingredients-text"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

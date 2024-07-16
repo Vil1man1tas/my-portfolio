@@ -1,0 +1,45 @@
+/*
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+*/
+
+.container-fluid {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+$mfont-primary : "Bebas Neue", sans-serif;
+$mfont-secondary : "Open Sans", sans-serif;
+$mmin-padding-side : 59px ;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $mfont-primary;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+a, p {
+    font-family: $mfont-secondary; 
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+}
+h1 {
+font-size: 80px;
+line-height: 80px;
+letter-spacing: 3px;
+}
+h3 {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+.mstyle-p1 {
+font-weight: 400;
+text-align: justify;
+}
+.mstyle-p2-bold {
+font-weight: 700;
+text-align: justify;
+}

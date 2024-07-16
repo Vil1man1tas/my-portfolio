@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming flights</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles-fly-order.css">
+</head>
+
+<body>
+
+    <div class="modal-info">
+        <div class="backdrop"></div>
+        <div class="modal">
+            <h2>Information</h2>
+            <p>
+                Sorry. You will be able to process this order later
+            </p>
+            <button class="modal-button">Ok</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <div class="header-logo">
+                <h1>AIRPORT</h1>
+            </div>
+        </header>
+
+        <section>
+            <h2>Hey Traveler, your upcoming trips</h2>
+            <p>Manage any issue regarding your next trip</p>
+            <div class="comment">
+                <img src="images/icon1.svg" alt="">
+                <p>Click on “Manage this booking” to manage your trip and view your flight(s) status</p>
+            </div>
+
+            <div class="cards">
+                <div class="card card1">
+                    <div class="image">
+                        <img src="images/image1.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <p class="date-field">07 NOV</p>
+                        <p class="text2">Kaunas - Barcelona</p>
+                        <p class="text3">Reservation number: WL9632541</p>
+                        <button class="booking" id="button1">Manage this booking</button>
+                    </div>
+                </div>
+                <div class="card card2">
+                    <div class="image">
+                        <img src="images/image2.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <p class="date-field">07 NOV</p>
+                        <p class="text2">Barcelona - Paris</p>
+                        <p class="text3">Reservation number: LEH6541541</p>
+                        <button class="booking" id="button2">Manage this booking</button>
+                    </div>
+                </div>
+                <div class="card card3">
+                    <div class="image">
+                        <img src="images/image3.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <p class="date-field">18 NOV</p>
+                        <p class="text2">Paris - Kaunas</p>
+                        <p class="text3">Reservation number: KJL2541</p>
+                        <button class="booking" id="button3">Manage this booking</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // MODAL -----------------------------------------
+        let bookingAll = document.querySelectorAll('.booking');
+        let modal = document.querySelector('.modal-info');
+        let modalbutton = document.querySelector('.modal-button');
+
+        bookingAll.forEach(booking => {
+            booking.addEventListener('click', () => {
+                modal.style.display = 'block';
+            })
+        });
+   
+        modalbutton.addEventListener('click', function() {
+            modal.style.display = 'none';
+        })
+
+    </script>
+
+</body>
+
+</html>

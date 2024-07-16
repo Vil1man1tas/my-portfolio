@@ -1,0 +1,252 @@
+@import 'reset';
+
+
+h1, h2, h3, h4, h5, h6, p, button {
+    font-family: "Inter", sans-serif;
+}
+h3 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 24px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+// =============================================
+//  HAT
+// =============================================
+
+nav {
+    .container {
+        // position: relative;
+        .nav-fone {
+            height: 265px;
+            padding: 0 300px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(images/image1.jpg);
+            background-size: cover;
+            background-position: 0% 50%;
+        }
+        h1 {
+            font-size: 96px;
+            font-weight: 700;
+            line-height: 96px;
+            color: rgba(255, 255, 255, 1);
+            padding-top: 55px;
+            padding-bottom: 11px;
+        }
+        h2 {
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 48px;
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+}
+
+// =============================================
+//  SECTION
+// =============================================
+
+section.page1 {
+    .container {
+        height: 1513px;
+        background: rgba(245, 245, 245, 1);
+        .page1-mid {
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            width: 1320px;
+            height: 1460px;
+            padding: 96px 96px 48px 96px;
+            justify-content: space-between;
+            align-items:flex-end;
+            gap: 16px;
+            border-radius: 0px 0px 20px 20px;
+            background: rgba(255, 255, 255, 1);
+            .car-foto {
+                width: 709px;
+                height: 398px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    padding: 32px;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .common-pack {
+                height: 78px;
+                width: 100%;
+                padding: 16px;
+                border-radius: 8px;
+                border: 1px solid rgba(217, 217, 217, 1);
+                position: relative;
+                transition: 0.2s all;
+                div.burbble {
+                    width: 54px; 
+                    height: 54px;
+                    border-radius: 50%;
+                    background: black;
+                    border: 1px solid black;
+                 }
+                h4 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    margin-bottom: 8px;
+                    color: rgba(34, 34, 34, 1);
+                }
+                p {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    color: rgba(153, 153, 153, 1);
+
+                }
+                div.option{
+                    position: absolute;
+                    top: 19px;
+                    right: 19px;
+                    width: 20px;
+                    height: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                img {
+                    width: 20px;
+                    height: 20px;
+                    display: none;
+                }
+                // img:not(.selected) {
+                // }
+            }
+            .common-pack.selected {
+                background: linear-gradient(0deg, rgba(24, 154, 248, 0.05), rgba(24, 154, 248, 0.05));
+                border: 2px solid rgba(24, 154, 248, 1);
+                img {
+                    display: block;
+                }
+            }
+            > div:nth-child(n+2):nth-child(-n+6) {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                padding: 32px;
+                border-radius: 16px;
+                box-shadow: 2px 3px 11.6px 0px rgba(0, 0, 0, 0.1);
+                h3 {
+                    width: 100%;
+                }
+            }
+            .main-pack {
+                width: 387px;
+                height: 370px;
+            }
+            #color {
+                width: 709px;
+                height: 394px;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                flex-direction: row;
+                .common-pack {
+                    height: 86px;
+                    display: flex;
+                    gap: 16px;
+                    align-items: center;
+                    width: calc((100% - 1 * 16px)/2);
+                }
+                .-js-pack11 {
+                    .burbble {
+                        background-color: red;
+                    }
+                }
+                .-js-pack12 {
+                    .burbble {
+                        background-color: gray;
+                    }
+                }
+                .-js-pack13 {
+                    .burbble {
+                        background-color: green;
+                    }
+                }
+                .-js-pack14 {
+                    .burbble {
+                        background-color: white;
+                    }
+                }
+                .-js-pack15 {
+                    .burbble {
+                        background-color: blue;
+                    }
+                }
+            }
+            .engine {
+                width: 387px;
+                height: 394px;
+            }
+            .salon {
+                width: 387px;
+                height: 370px;
+            }
+            .accessories {
+                width: 709px;
+                height: 370px;
+                div.option {
+                    border: 4px solid rgba(94, 94, 94, 1);
+                }
+            }
+            // ------------------
+            .page1-line {
+                margin: 20px auto;
+                width: 1128px;
+                height: 2px;
+                background: rgba(237, 237, 237, 1)
+            }
+            .total {
+                width: 1128px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                h3 {
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    padding: 0;
+                }
+                p {
+                    flex-grow: 1;
+                    padding-left: 8px;
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+                button {
+                    width: 113px;
+                    height: 50px;
+                    border-radius: 8px;
+                    border: 1px solid rgb(45, 118, 170);
+                    color: white;
+                    background: rgba(43, 156, 238, 1);
+                    transition: 0.2s all;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 18px;
+                    letter-spacing: 0.02em;
+                    &:hover {
+                        background-color: rgb(55, 171, 255);
+                    }
+                }
+            }
+        }
+
+    }
+}

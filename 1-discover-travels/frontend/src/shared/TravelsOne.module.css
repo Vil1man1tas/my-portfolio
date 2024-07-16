@@ -1,0 +1,107 @@
+.container {
+    padding: 20px 60px;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+}
+
+.travel_box {
+    min-width: 300px;
+    padding: 30px 60px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.travel_box h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    transition: 0.2 all;
+}
+
+.travel_box p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24.38px;
+        letter-spacing: 0.03em;
+}
+.travel_box a {
+    margin-top: 10px;
+}
+.header textarea {
+    background-color: rgba(177, 177, 177, 0.401);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.41);
+    padding: 5px 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comments_area {
+    width: calc(100% - 100px);
+    padding: 60px;
+}
+
+.comment_field {
+    background-color: rgba(135, 176, 222, 0.422);
+    border: 1px solid rgb(117, 117, 117);
+    margin-left: 25px;
+    margin-bottom: 2px;
+    padding: 10px 0 3px 20px;
+}
+
+.comment_text {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    padding: 10px;
+    line-height: 1.1;
+    background-color: rgb(220, 238, 245);
+}
+.comment_buttons_field {
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.comments_area button {
+    padding: 5px;
+    color: rgb(61, 61, 85);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.41);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.255);
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.comments_area button:hover {
+    background-color: rgba(118, 118, 118, 0.401);
+    color: rgb(200, 200, 200);
+}
+
+.comments_area form {
+    display: flex;
+    align-items: center;
+}
+
+.comments_area form button {
+    height: 40px;
+}

@@ -1,0 +1,57 @@
+.dishes_card_box {
+    position: relative;
+
+}
+
+.dishes_marker {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: -12px;
+    left: 114px;
+}
+
+.dishes_marker img {
+    width: 25px;
+    height: 25px;
+}
+
+.produce {
+    width: 133px;
+    height: 214px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s all;
+}
+
+.produce:hover {
+    box-shadow: 0 0 0 1px #e6e6e6, 0 0 20px rgba(0, 0, 0, 0.178);
+}
+
+.produce.active {
+    box-shadow: 0 0 0 1px #e6e6e6, 0 0 20px rgba(0, 0, 0, 0.178);
+}
+
+.produce h2 {
+    margin-top: 13px;
+    margin-bottom: 9px;
+    padding-left: 10px;
+}
+
+.produce p {
+    padding: 0 7px 0 10px;
+}
+
+.produce .produce_image {
+    width: 100%;
+    height: 80px;
+}
+
+.produce .produce_image img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+}

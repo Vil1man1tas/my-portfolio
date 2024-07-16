@@ -1,0 +1,59 @@
+/* 
+font-family: "Inter", sans-serif;
+font-weight: 100-900; 
+/* ===================================================================
+COMMON STYLES
+====================================================================== */
+html, body, h1, h2, h3, h4, h5, h6, ul, p, li, a, button {
+    margin: 0;
+    padding: 0;
+} 
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+*,*:focus,*:hover,*:active,*:focus-visible{
+    outline:none;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+$mcolor-primary : rgba(50, 41, 47, 1);
+
+h1, h2, h3, h4, h5, h6, p, a, button, input {
+    font-family: "Inter", sans-serif;
+    color: $mcolor-primary;
+} 
+.container-fluid {
+    max-width: 1440px;
+    min-width: 376px;
+    padding: 0 80px;
+    @media only screen and (max-width: 575.98px) {
+        padding: 0 24px;
+    }  
+}
+button {
+    width: 116px;
+    height: 48px;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid $mcolor-primary;
+    transition: 0.2s all;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    @media only screen and (max-width: 991.98px) {
+        width: 216px;
+    }
+    @media only screen and (max-width: 575.98px) {
+        width: 327px;
+    }
+}
+button:hover {
+    font-size: 16px;
+    background: $mcolor-primary;
+    color: white;
+}
+

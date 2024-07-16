@@ -1,0 +1,42 @@
+.container_travelslist {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.travel_box {
+    width: calc((100% - 20px * 3) /2);
+    min-width: 300px;
+    padding: 20px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.151);
+    border-radius: 35px;
+}
+
+.container_travelslist a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    transition: 0.2 all;
+}
+.container_travelslist a:hover {
+    color: rgb(0, 0, 109);
+}
+
+
+.container_travelslist p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24.38px;
+        letter-spacing: 0.03em;
+    
+    
+}

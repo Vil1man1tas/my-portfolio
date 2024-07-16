@@ -1,0 +1,42 @@
+/* bootstrap breakpoints
+        xs <576px
+        sm ≥576px
+        md ≥768px
+        lg ≥992px
+        xl ≥1200px
+        xxl ≥1400px
+*/
+/* ===================================================================
+RESET STYLES
+====================================================================== */
+html, body, h1, h2, h3, h4, h5, h6, ul, p, li, a, button {
+    margin: 0;
+    padding: 0;
+} 
+.home-page {
+    min-width: 376px;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+// input[type=text]:hover,
+// input[type=text]:focus,
+// input[type=text]:active,
+// input[type=text]:focus-visible {
+//     outline:none;
+// }
+*,*:focus,*:hover,*:active,*:focus-visible{
+    outline:none;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+/* ===================================================================
+RESET STYLES
+====================================================================== */
+ 
+

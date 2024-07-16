@@ -1,0 +1,28 @@
+/* ===================================================================
+RESET STYLES
+====================================================================== */
+html, body, h1, h2, h3, h4, h5, h6, ul, p, li, a, button {
+    margin: 0;
+    padding: 0;
+} 
+.home-page {
+    min-width: 376px;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+*,*:focus,*:hover,*:active,*:focus-visible{
+    outline:none;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+/* ===================================================================
+RESET STYLES
+====================================================================== */
+ 
+

@@ -1,0 +1,73 @@
+.container {
+  width: 600px;
+  /* display: flex; */
+  background-color: rgba(0, 0, 0, 0.103);
+  position: absolute;
+  padding: 40px 60px 20px 60px;
+  right: 60px;
+  top: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.41);
+  border-radius: 8px;
+}
+
+.container h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: rgb(37, 37, 37);
+}
+
+.button_phosphor {
+  transform: translateY(5px);
+}
+
+.container label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.38px;
+  letter-spacing: 0.03em;
+  display: block;
+  cursor: pointer;
+}
+
+.container input {
+  background-color: rgba(177, 177, 177, 0.401);
+  height: 32px;
+  min-width: 300px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.41);
+  padding: 0 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  /* transform: translateY(1px); */
+  /* margin: 0 10px; */
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container .button_all {
+  color: rgb(61, 61, 85);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 25px;
+  padding: 10px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.41);
+  border-radius: 8px;
+  background-color: rgba(177, 177, 177, 0.401);
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.button_all:hover {
+  background-color: rgba(74, 74, 74, 0.401);
+  color: rgb(200, 200, 200);
+}
+

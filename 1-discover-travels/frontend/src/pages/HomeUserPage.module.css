@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button_field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.container .button {
+    width: 120px;
+    background-color: rgba(118, 118, 118, 0.401);
+    color: rgb(20, 20, 20);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 10px;
+    transition: 0.2s all;
+}
+
+.container .buttonsearch {
+    /* width: 120px; */
+    background-color: rgba(118, 118, 118, 0.401);
+    color: rgb(20, 20, 20);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 8px 10px;
+    transition: 0.2s all;
+}
+
+
+.container .button:hover {
+    background-color: rgba(222, 222, 222, 0.225);
+    color: rgb(41, 41, 41);
+}
+
+.container input {
+    background-color: rgba(177, 177, 177, 0.401);
+    height: 32px;
+    min-width: 300px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.41);
+    padding: 0 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    /* transform: translateY(1px); */
+    /* margin: 0 10px; */
+}
+
+.left_side {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .button_phosphor {
+    transform: translateY(8px);
+  } */

@@ -1,0 +1,32 @@
+.ingredients {
+    margin-bottom: 32px;
+    padding: 0 20px;
+}
+
+.ingredients p {
+    margin: 4px 0;
+}
+
+.ingredients h1 {
+    margin-bottom: 16px;
+}
+
+.dish_image {
+    width: 320px;
+    height: 160px;
+    margin-bottom: 16px;
+}
+
+.dish_image img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.link_return {
+    color: lightseagreen;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 15px;
+    cursor: pointer;
+}

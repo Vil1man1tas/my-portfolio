@@ -1,0 +1,27 @@
+GET http://localhost:8700/travels/all
+
+### kazkodel nefiltruoja pagal data
+# GET http://localhost:8700/travels/latest
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2N2M1M2JhOTdmMWZiNWExNDk1YjIzYyIsImlhdCI6MTcxOTQyNDY4OSwiZXhwIjoxNzIyMDE2Njg5fQ.Ue6JIkui3MoAqdToa1kox4n_D2l3OrrcJeL-cCy5-sw
+
+
+###
+GET http://localhost:8700/travels/get/667c4f6ea9322d8a11113126
+
+###
+POST http://localhost:8700/travels/add
+Content-Type: application/json
+
+{
+"_iduser": "6679b282dc437550575d28a1",
+"shortdescription": "Nepakartojamas karnavalas",
+"country": "Brazilija",
+"name": "Kelionė po Braziliją",
+"description": "Gardūs vietiniai patiekalai, pagardinti aromatiniais prieskoniais.",
+"travelagency": "Wildlife Safaris",
+"ratingagency": 5,
+"image": "image1.jpg",
+"date": "2024-01-02T21:11:00.931Z",
+"createdate": "2024-06-01"
+}
+

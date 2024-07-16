@@ -1,0 +1,49 @@
+/* .order {
+    margin: 32px 0;
+} */
+
+.order {
+    position: relative;
+    padding: 0 20px;
+}
+
+.slider_counter {
+    position: absolute;
+    top: 30px;
+}
+
+.order .my_slider {
+    width: 216px;
+    height: 0px;
+    border: 1px solid black;
+    margin-top: 32px;
+    margin-bottom: 15px;
+    /* -webkit-appearance: none; */
+    appearance: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    cursor: pointer;
+}
+
+.order .my_slider:hover {
+    opacity: 1;
+}
+
+.order .my_slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+}
+
+.order .my_slider::-moz-range-thumb {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+}

@@ -127,14 +127,14 @@ const ProfilePage = () => {
                         {
                             orEditUser &&
                             <div>
-                                <button className={styles.button_all} onClick={() => setOrEditUser(false)}>Grįžti</button>
-                                <button className={styles.button_all} type="submit">Keisti</button>
+                                <button className={styles.button_all} onClick={() => setOrEditUser(false)}>Back</button>
+                                <button className={styles.button_all} type="submit">Change</button>
                             </div>
                         }
                     </form>
                     {
                         orEditUser &&
-                        <button className={styles.button_all} onClick={deleteUserHandler}>Trinti paskyrą</button>
+                        <button className={styles.button_all} onClick={deleteUserHandler}>Delete</button>
                     }
                 </div>
             </div>

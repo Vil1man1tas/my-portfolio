@@ -276,7 +276,7 @@ const HomePage = () => {
                         }
                         <p><b>Aprašymas.</b> {recipes[selectedArrayNum].description}</p>
                         <p><b>Kaip gaminti.</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi dolorem reiciendis modi harum, officia est quas nostrum accusantium id sit asperiores ad, ipsum minus rem beatae laborum pariatur perspiciatis iure.</p>
-                        <div onClick={backHandler} className={styles.link_return}>...grįžti į atgal</div>
+                        <div onClick={backHandler} className={styles.link_return}>...grįžti atgal</div>
                         <div onClick={topHandler} className={styles.link_return}>...grįžti į pradžią</div>
                     </div>
                 </div>

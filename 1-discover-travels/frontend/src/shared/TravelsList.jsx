@@ -15,7 +15,7 @@ const TravelsList = (props) => {
                             {k.country+' - '+k.name}
                         </Link>
                         <p>{k.shortdescription}</p>
-                        <p>Pasidalinta: {k.createdate.slice(0, 10)}</p>
+                        <p>Posted: {k.createdate.slice(0, 10)}</p>
                     </div>
                 ))
             }
